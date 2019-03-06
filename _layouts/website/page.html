@@ -1,0 +1,12 @@
+{% extends template.self %} {% block body %} {% block top_menu_bar %}
+<div class="cuav-navbar">
+  <div class="cuav-navbar-logo">
+    <a href="//doc.cuav.net">
+      <img src="{{ 'gitbook-plugin-cuav-doc-navbar/images/cuav-logo.png' | resolveAsset }}" alt="CUAV logo" />
+    </a>
+  </div>
+</div>
+{% endblock %}
+{{ super() }}
+
+{% endblock %}
